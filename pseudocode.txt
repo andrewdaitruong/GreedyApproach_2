@@ -1,0 +1,18 @@
+Array for city_distances
+Array for fuel
+mpg = 10
+
+Function 1: getStartingCity()
+Get the starting city as an input. (Note: from every city should be possible to have a cycle)
+Return the starting city after user input
+
+Function 2: getRemainingFuel()
+Get the calculation for the fuel
+    for loop to traverse each city and add/remove the fuel amount from traversal
+        add fuel += mpg * fuel[i] (Since starting at 0, need to add first)
+        remove fuel - city_distances[i]
+        Note: If starting at 3, how can I wrap back to 3?
+
+        remaining fuel = add fuel - remove fuel
+
+    return the remaining fuel after loop.
