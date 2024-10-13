@@ -23,7 +23,7 @@ int main() {
     int preferredCity = getStartingCity();
     cout << "The starting city is " << preferredCity + 1 << endl;
 
-    int result = traverseCity(preferredCity);
+    traverseCity(preferredCity);
 
     return 0;
 }
