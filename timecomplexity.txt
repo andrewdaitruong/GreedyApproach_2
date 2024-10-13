@@ -1,0 +1,7 @@
+STEP COUNT
+We see that the function getStartingCity() is using an O(1) time complexity since 
+it is only being called once for a single input
+
+For function traverseCity() is using an O(n) time complexity because it as it loops through each iteration,
+it calculates the cost adding +1 step, but it does this for n amount of times until it reaches back to its
+original location. There for O(1) and O(n) is still O(n)
